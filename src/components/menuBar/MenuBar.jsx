@@ -1,0 +1,23 @@
+import React from 'react';
+import '../menuBar/menuBar.css';
+
+export default function MenuBar({repoCount}) {
+    
+    return (
+        <div className="menu-bar">
+            <div className="menu-item">
+                <img className="icon" src="../images/overview-icon.png" alt="Overview Icon" />
+                <span>Overview</span>
+            </div>
+            <div className="menu-item">
+                <img className="icon" src="../images/repositories-icon.png" alt="Repositories Icon" />
+                <span>Repositories</span>
+                <span className="repo-count" style={{ color: '#fff' }}>{repoCount}</span>
+            </div>
+            <div className="menu-item">
+                <img className="icon" src="../images/projects-icon.png" alt="Projects Icon" />
+                <span>Projects</span>
+            </div>
+        </div>
+    );
+}
