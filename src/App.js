@@ -4,7 +4,7 @@ import GithubExplorer from './components/GithubExplorer';
 function App() {
   return (
     <div className="App">
-      <GithubExplorer />
+      <GithubExplorer/>
     </div>
   );
 }
