@@ -19,7 +19,7 @@ export default function GithubExplorer() {
     const [repoCount, setRepoCount] = useState(0);
 
     // GitHub access token for API authorization
-    const accessToken = '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';
+    const accessToken = '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';
 
     // Effect hook to set document title on component mount
     useEffect(() => {
