@@ -6,19 +6,6 @@ import '../userInfo/userInfo.css';
  */
 export default function UserInfo({username, userData}) {
 
-    // State variable for storing organizations data
-    const [orgsData, setOrgsData] = useState([]);
-
-    // Effect hook to fetch organizations data when userData changes
-    useEffect(() => {
-        if (userData) {
-            fetch(`https://api.github.com/users/${userData.login}/orgs`)
-                .then(response => response.json())
-                .then(orgs => setOrgsData(orgs))
-                .catch(error => console.error('Error fetching organizations:', error));
-        }
-    }, [userData]);
-
     // JSX markup for the UserInfo component
     return (
         <div className="user-info">
