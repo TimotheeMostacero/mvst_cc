@@ -10,7 +10,7 @@ To run the project locally, follow these steps:
 
 - Clone this repository to your local machine.
 - Navigate to the project directory in your terminal.
-- Generate a personal access token via GitHub to access API functionalities & replace value of accessToken in line 17 of GithubExplorer.jsx 
+- Generate a personal access token via GitHub to access API functionalities & replace value of accessToken in line 22 of GithubExplorer.jsx 
 - Run npm install to install project dependencies.
 - Run npm i axios to install Axios
 - Run npm start to start the development server.
