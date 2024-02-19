@@ -63,7 +63,7 @@ export default function Repos({username, repos}) {
         }
     };
 
-    // JSX markup for the Repos component
+    // JSX markup for the Repos component (find a Repo input and Repos filtered list output)
     return (
         <div className="repos-container">
             <div className="filter-select-container">
